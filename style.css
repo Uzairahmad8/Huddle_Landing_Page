@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  margin: 75px auto;
+}
+
+.navbar {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.navLink {
+  padding: 10px 30px;
+  color: #ff52c1;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  color: #ff52c1;
+  box-shadow: 0 0 10px rgba(255, 82, 193, 0.3);
+}
+
+.navLink:hover {
+  border: 1px solid #ff52c1;
+}
+
+.productInformationContainer {
+  padding: 0 100px;
+}
+
+.productInformation {
+  max-width: 1017px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.productInformation h1 {
+  font-size: 48px;
+  max-width: 1014px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.productInformation p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 26px auto 50px auto;
+}
+
+.informationCTA {
+  padding: 25px 100px;
+  font-size: 20px;
+  background-color: #ff52c1;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  border: none;
+}
+
+.informationCTA:hover {
+  box-shadow: 0 5px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.informationImageContainer {
+  max-width: 1016px;
+  margin: 120px auto;
+}
+
+.informationImage {
+  width: 100%;
+}
+
+.reviewContainer {
+  padding: 0 100px;
+}
+
+.reviewContent {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.reviewCard h2 {
+  font-size: 96px;
+}
+
+.reviewCard p {
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+.growTogetherContainer {
+  padding: 165px 100px;
+  background-image: url("images/backgroundImg01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.growTogetherContent {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 520px;
+}
+
+.content h3 {
+  font-size: 40px;
+  margin-bottom: 26px;
+}
+
+.conversationContainer,
+.userSectionContainer {
+  padding: 120px 100px;
+}
+
+.conversationContent,
+.userSectionContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 120px;
+}
+
+.conversationContent h3,
+.userContent h3,
+.CTAContent h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+
+.conversation_Section_Image_Container,
+.imageContainer,
+.userImageContainer {
+  max-width: 560px;
+  width: 100%;
+}
+
+.growTogetherImage,
+.conversation_Section_Image,
+.userImage {
+  width: 100%;
+}
+
+.userSectionContainer {
+  background-image: url("images/userSectionBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.userContent {
+  max-width: 520px;
+}
+
+.CTAContent {
+  max-width: 680px;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.footer {
+  background-image: url("images/footerBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 0 100px;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.footerCTA h3 {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footerCTA p {
+  font-size: 14px;
+  margin: 16px 0 40px 0;
+  max-width: 342px;
+}
+
+.fa-solid {
+  margin-right: 16px;
+}
+
+.footer {
+  padding: 280px 100px 50px 100px;
+}
+
+.footerAddress {
+  margin: 24px 0 24px 0;
+}
+
+.contact {
+  margin-bottom: 16px;
+}
+
+.footerSocialLinks {
+  justify-content: start;
+  gap: 24px;
+  margin-top: 80px;
+}
+
+.socialLink {
+  cursor: pointer;
+}
+
+.footerLinks {
+  max-width: 400px;
+}
+
+.fa-brands {
+  width: 32px;
+  height: 32px;
+}
+
+.footerCTA {
+  max-width: 520px;
+}
+
+#email {
+  padding: 12px 68px;
+  margin: 0 15px 15px 0;
+}
+
+.footerBtn {
+  padding: 14px 40px;
+  background-color: #ff52c1;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* .instagram {
+  border: 1px solid transparent;
+  max-width: 32px;
+  height: 32px;
+} */
+
+#Shape:hover {
+  fill: #00c7fa;
+}
+
+@media (max-width: 860px) {
+  .navbar {
+    padding: 0 50px;
+  }
+
+  .productInformation h1 {
+    font-size: 40px;
+  }
+
+  .reviewContainer {
+    margin: 50px auto;
+  }
+
+  .reviewCard h2 {
+    font-size: 70px;
+  }
+
+  .growTogetherContent,
+  .conversationContent,
+  .userSectionContent {
+    gap: 50px;
+  }
+
+  .content,
+  .conversation_Section_Content,
+  .userContent {
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .content p,
+  .userContent p,
+  .conversation_Section_Content {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 150px 50px 50px 50px;
+  }
+
+  .footerContent {
+    gap: 140px;
+  }
+}
+
+@media (max-width: 750px) {
+  .flex {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .header {
+    margin: 40px auto;
+  }
+
+  .navbarLogo {
+    max-width: 150px;
+  }
+
+  .navLogo {
+    width: 100%;
+  }
+
+  .navLink {
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+  .productInformation p {
+    font-size: 18px;
+  }
+
+  .informationCTA {
+    padding: 15px 50px;
+  }
+
+  .productInformationContainer {
+    padding: 0 50px;
+    margin-top: 70px;
+  }
+
+  .conversationContainer {
+    padding: 0 50px;
+    max-width: 600px;
+    margin: 50px auto;
+  }
+
+  .reviewContent {
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: -50px;
+  }
+
+  .CTAContainer {
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+  .CTAContent h3 {
+    font-size: 30px;
+  }
+
+  .userSectionContainer {
+    padding: 150px 50px 0 50px;
+  }
+
+  .userSectionContainer {
+    background-image: url("images/mobileResponsivebackgroundImage2.png");
+  }
+
+  .growTogetherContainer {
+    background-image: url("images/mobilebackground1.png");
+    padding: 200px 50px 70px 50px;
+  }
+
+  .growTogetherContainer,
+  .userSectionContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .productInformation h1 {
+    font-size: 30px;
+  }
+
+  .footer {
+    background-image: url("images/mobileFooterBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footerContent,
+  .growTogetherContent {
+    flex-direction: column-reverse;
+  }
+
+  .footerContent {
+    align-items: baseline;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    margin: 24px auto;
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+  .navbarLogo {
+    width: 100px;
+  }
+
+  .navLink {
+    padding: 5px 17px;
+  }
+
+  .productInformation {
+    max-width: 300px;
+  }
+
+  .productInformation h1,
+  .CTAContent h3 {
+    font-size: 24px;
+  }
+
+  .productInformation p,
+  .content p,
+  .conversationContent p,
+  .userContent p {
+    font-size: 14px;
+  }
+
+  .informationCTA {
+    padding: 11px 40px;
+    font-size: 12px;
+  }
+
+  .content,
+  .conversationContent,
+  .userContent {
+    text-align: center;
+  }
+
+  .content h3,
+  .conversationContent h3,
+  .userContent h3 {
+    font-size: 20px;
+  }
+
+  .CTAContent {
+    margin: 80px auto;
+  }
+
+  .footer {
+    padding: 120px 20px 30px 20px;
+  }
+
+  .footerContent {
+    max-width: 320px;
+  }
+}
